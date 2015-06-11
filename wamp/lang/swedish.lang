@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Alla tjänster är igång';
+$w_oneServiceRunning = '%n av %t tjänsterna är igång';
+$w_allServicesStopped = 'Ingen av %t tjänsterna år igång';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&Om...';
+$w_helpFile = 'Hjälp Fil';
+$w_help = 'Hjälp';
+$w_exit = 'Avsluta';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www katalog';
+$w_logFiles = 'Logg filer';
+$w_configFiles = 'Konfig filer';
+$w_apacheModules = 'Apache moduler';
+$w_phpSettings = 'PHP inställningar';
+$w_aliasDirectories = 'Alias kataloger';
+$w_services = 'Tjänster';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Starta Alla Tjänster';
+$w_stopServices = 'Stoppa Alla Tjänster';
+$w_restartServices = 'Omstart om Alla Tjänster';
+$w_putOnline = 'Visa Online';
+$w_putOffline = 'Visa Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Lägg till en alias';
+$w_refresh = 'Uppdatera';
+$w_phpExtensions = 'PHP tillägg';
+$w_addExtension = 'Lägg till tillägg';
+
+$w_startResume = '&Start/Omstart om Tjänst';
+$w_pauseService = '&Pausa Tjänst';
+$w_stopService = '&Stoppa Tjänst';
+$w_restartService = '&Starta om Tjänst';
+$w_testPort80 = 'Testa Port 80';
+$w_installService = '&Installera Tjänst';
+$w_removeService = '&Ta bort Tjänst';
+$w_mysqlConsole = 'MySQL Konsoll';
+
+$w_language = 'Språk';
+
+?>

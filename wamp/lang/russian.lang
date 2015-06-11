@@ -1,0 +1,59 @@
+<?php
+
+// translated by Andrey Ryabukhin : dron@softfresh.ru
+
+$w_allServicesRunning = 'Все сервисы запущены';
+$w_oneServiceRunning = 'Запущено %n из %t сервисов';
+$w_allServicesStopped = 'Ни одного сервиса из %t не запущено';
+
+$w_serverOffline = 'Сервер выключен';
+$w_serverOnline = 'Сервер включен';
+
+$w_about = 'О программе...';
+$w_helpFile = 'Файл помощи';
+$w_help = 'Помощь';
+$w_exit = 'Выход';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'Перейти в папку WWW';
+$w_logFiles = 'Файлы журналов';
+$w_configFiles = 'Файлы конфигурации';
+$w_apacheModules = 'Модули Apache';
+$w_phpSettings = 'Настройки PHP';
+$w_aliasDirectories = 'Папка псевдонимов';
+$w_services = 'Сервисы';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Запустить все сервисы';
+$w_stopServices = 'Остановить все сервисы';
+$w_restartServices = 'Перезапустить все сервисы';
+$w_putOnline = 'Сделать доступным извне...';
+$w_putOffline = 'Сделать не доступным извне...';
+
+$w_apacheErrorLog = 'Журнал ошибок Apache';
+$w_apacheAccessLog = 'Журнал доступа Apache';
+$w_phpLog = 'Журнал ошибок PHP';
+$w_mysqlLog = 'Журнал MySQL';
+$w_adddAlias = 'Добавить псевдоним';
+$w_editAlias = 'Редактировать псевдоним';
+$w_dellAlias = 'Удалить псевдоним';
+$w_edit_htaccess = 'Редактировать .htaccess';
+
+$w_refresh = 'Обновить';
+$w_phpExtensions = 'Расширения PHP';
+$w_addExtension = 'Добавить расширения';
+
+$w_startResume = 'Запустить/продолжить сервис';
+$w_pauseService = 'Приостановить сервис';
+$w_stopService = 'Остановить сервис';
+$w_restartService = 'Перезапустить сервис';
+$w_testPort80 = 'Протестировать порт 80';
+$w_installService = 'Установить сервис';
+$w_removeService = 'Удалить сервис';
+$w_mysqlConsole = 'консоль MySQL';
+
+$w_language = 'Язык';
+
+?>

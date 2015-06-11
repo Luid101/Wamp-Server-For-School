@@ -1,0 +1,54 @@
+﻿<?php
+
+$w_allServicesRunning = 'Όλες οι υπηρεσίες λειτουργούν';
+$w_oneServiceRunning = '%n από %t τις υπηρεσίες λειτουργεί';
+$w_allServicesStopped = 'Καμία από τίς %t υπηρεσίες λειτουργεί';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&Στοιχεία...';
+$w_helpFile = 'Φάκελλος Βοηθείας';
+$w_help = 'Help';
+$w_exit = 'Έξοδος';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'κατάλογος www ';
+$w_logFiles = 'Αρχεία ημερολογίου';
+$w_configFiles = 'Αρχεία Config';
+$w_apacheModules = 'Ενότητες Apache';
+$w_phpSettings = 'Τοποθετήσεις PHP ';
+$w_aliasDirectories = 'Κατάλογος Alias ';
+$w_services = 'Υπηρεσίες';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Ξεκινήστε όλες τις υπηρεσίες';
+$w_stopServices = 'Σταματήστε όλες τις υπηρεσίες';
+$w_restartServices = 'Επανεκκίνηση όλων των υπηρεσιών';
+$w_putOnline = 'Βάλτε με Οnline';
+$w_putOffline = 'Βάλτε με Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Προσθήκη alias';
+$w_refresh = 'Refresh';
+$w_phpExtensions = 'επεκτάσεις PHP';
+$w_addExtension = 'Προσθέστε μια επέκταση';
+
+$w_startResume = '&Ξεκινήστε/Επαναφέρετε την υπηρεσία';
+$w_pauseService = '&μικρή διακοπή της υπηρεσίας';
+$w_stopService = '&Σταμάτα την Υπηρεσία';
+$w_restartService = '&Ξαναξεκίνα την Υπηρεσία';
+$w_testPort80 = 'Κάνε δοκιμή του Port 80';
+$w_installService = '&Κάνε Install αυτή την Υπηρεσία';
+$w_removeService = '&Βγάλε αυτή την Υπηρεσία';
+$w_mysqlConsole = 'Κονσόλα του MySQL ';
+
+$w_language = 'Γλώσσα';
+
+
+?>

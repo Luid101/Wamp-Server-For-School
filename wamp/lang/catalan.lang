@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Tots els serveis estan funcionant';
+$w_oneServiceRunning = '%n de %t serveis estan funcionant';
+$w_allServicesStopped = 'Cap dels %t serveis estan funcionant';
+
+$w_serverOffline = 'Servidor Apagat';
+$w_serverOnline = 'Servidor Engegat';
+
+$w_about = '&Sobre...';
+$w_help = 'Ajuda';
+$w_helpFile = 'Ajuda';
+$w_exit = 'Sortida';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'directori www';
+$w_logFiles = 'Registres';
+$w_configFiles = 'Configuració';
+$w_apacheModules = 'Mòduls d\'Apache';
+$w_phpSettings = 'Configuració de PHP';
+$w_aliasDirectories = 'Alies de Directoris';
+$w_services = 'Serveis';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Iniciar els Serveis';
+$w_stopServices = 'Parar els Serveis';
+$w_restartServices = 'Reiniciar els Serveis';
+$w_putOnline = 'Engegar';
+$w_putOffline = 'Apagar';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Agregar un alias';
+$w_refresh = 'Refrescar';
+$w_phpExtensions = 'Extensions de PHP';
+$w_addExtension = 'Agregar extensió';
+
+$w_startResume = '&Iniciar/Continuar Servei';
+$w_pauseService = '&Pausar Servei';
+$w_stopService = '&Parar Servei';
+$w_restartService = '&Reiniciar Servei';
+$w_testPort80 = 'Provar port 80';
+$w_installService = 'I&nstal·lar Servei';
+$w_removeService = '&Eliminar Servei';
+$w_mysqlConsole = 'Consola de MySQL';
+
+$w_language = 'Idioma';
+
+?>

@@ -1,0 +1,230 @@
+[09-Jun-2015 13:15:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:15:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:15:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:15:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:22:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:22:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:22:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Jun-2015 13:22:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[10-Jun-2015 00:39:30 Europe/Paris] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php on line 74
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Notice:  Undefined index: user_type in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php on line 55
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 00:40:04 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php:0
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Notice:  Undefined index: user_type in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php on line 61
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 00:40:04 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php:0
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Notice:  Undefined index: user_type in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php on line 67
+[10-Jun-2015 00:40:04 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 00:40:04 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php:0
+[10-Jun-2015 01:37:05 Europe/Paris] PHP Parse error:  syntax error, unexpected '$url_student' (T_VARIABLE) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\Loged_in.php on line 5
+[10-Jun-2015 01:37:39 Europe/Paris] PHP Parse error:  syntax error, unexpected '$url_student' (T_VARIABLE) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\Loged_in.php on line 5
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Warning:  include(C:\Program Files (x86)\wamp\www\db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 12
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 01:42:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Warning:  include(): Failed opening 'C:\Program Files (x86)\wamp\www\db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 12
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 01:42:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 17
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 01:42:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 17
+[10-Jun-2015 01:42:13 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 01:42:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 01:42:13 Europe/Paris] PHP   2. mysqli_real_escape_string() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:17
+[10-Jun-2015 01:45:39 Europe/Paris] PHP Notice:  A non well formed numeric value encountered in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 56
+[10-Jun-2015 01:45:39 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 01:45:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 01:45:39 Europe/Paris] PHP   2. checkdate() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:56
+[10-Jun-2015 04:05:24 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 38
+[10-Jun-2015 04:08:09 Europe/Paris] PHP Warning:  checkdate() expects exactly 3 parameters, 1 given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 60
+[10-Jun-2015 04:08:09 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 04:08:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 04:08:09 Europe/Paris] PHP   2. checkdate() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:60
+[10-Jun-2015 04:08:09 Europe/Paris] PHP Warning:  checkdate() expects exactly 3 parameters, 1 given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 60
+[10-Jun-2015 04:08:09 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 04:08:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 04:08:09 Europe/Paris] PHP   2. checkdate() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:60
+[10-Jun-2015 04:27:57 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 38
+[10-Jun-2015 14:19:09 Europe/Paris] PHP Notice:  Undefined variable: startdate in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 64
+[10-Jun-2015 14:19:09 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 14:19:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 14:19:09 Europe/Paris] PHP Notice:  Undefined variable: startdate in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php on line 65
+[10-Jun-2015 14:19:09 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 14:19:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
+[10-Jun-2015 20:08:40 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 77
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 49
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:08:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 49
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:08:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:08:51 Europe/Paris] PHP   2. mysqli_query() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:49
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Notice:  Undefined variable: submit in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 53
+[10-Jun-2015 20:08:51 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:08:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Warning:  include(db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 4
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 4
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 51
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 51
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   2. mysqli_query() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:51
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Notice:  Undefined variable: submit in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 55
+[10-Jun-2015 20:10:00 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:00 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[10-Jun-2015 20:10:52 Europe/Paris] PHP Notice:  Undefined variable: submit in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 55
+[10-Jun-2015 20:10:52 Europe/Paris] PHP Stack trace:
+[10-Jun-2015 20:10:52 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[11-Jun-2015 09:33:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 09:33:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 09:33:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 09:33:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 11:34:39 Europe/Paris] PHP Notice:  Undefined variable: submit in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 55
+[11-Jun-2015 11:34:39 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 11:34:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[11-Jun-2015 12:14:58 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 71
+[11-Jun-2015 14:21:35 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 94
+[11-Jun-2015 14:22:00 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 94
+[11-Jun-2015 14:22:02 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 94
+[11-Jun-2015 14:22:07 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 30
+[11-Jun-2015 14:34:27 Europe/Paris] PHP Notice:  Undefined variable: period3 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 104
+[11-Jun-2015 14:34:27 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:34:27 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:35:37 Europe/Paris] PHP Parse error:  syntax error, unexpected 't' (T_STRING), expecting ',' or ';' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 106
+[11-Jun-2015 14:51:34 Europe/Paris] PHP Notice:  Undefined variable: confamation in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 130
+[11-Jun-2015 14:51:34 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:51:34 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:51:57 Europe/Paris] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 125
+[11-Jun-2015 14:51:57 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:51:57 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:51:57 Europe/Paris] PHP   2. mysqli_real_escape_string() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:125
+[11-Jun-2015 14:51:57 Europe/Paris] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 125
+[11-Jun-2015 14:51:57 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:51:57 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:51:57 Europe/Paris] PHP   2. mysqli_real_escape_string() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:125
+[11-Jun-2015 14:59:21 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 122
+[11-Jun-2015 14:59:36 Europe/Paris] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 123
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Notice:  Use of undefined constant period1 - assumed 'period1' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:59:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Notice:  Use of undefined constant period2 - assumed 'period2' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:59:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Notice:  Use of undefined constant period3a - assumed 'period3a' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:59:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Notice:  Use of undefined constant period3b - assumed 'period3b' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:59:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Notice:  Use of undefined constant period3c - assumed 'period3c' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 14:59:55 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 14:59:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Notice:  Use of undefined constant period1 - assumed 'period1' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Notice:  Use of undefined constant period2 - assumed 'period2' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Notice:  Use of undefined constant period3a - assumed 'period3a' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Notice:  Use of undefined constant period3b - assumed 'period3b' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Notice:  Use of undefined constant period3c - assumed 'period3c' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:28 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Notice:  Use of undefined constant period1 - assumed 'period1' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Notice:  Use of undefined constant period2 - assumed 'period2' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Notice:  Use of undefined constant period3a - assumed 'period3a' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Notice:  Use of undefined constant period3b - assumed 'period3b' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Notice:  Use of undefined constant period3c - assumed 'period3c' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 15:00:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:00:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period1 - assumed 'period1' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 32
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period2 - assumed 'period2' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 33
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period3a - assumed 'period3a' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 34
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period3b - assumed 'period3b' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 35
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period3c - assumed 'period3c' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 36
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Use of undefined constant period4 - assumed 'period4' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 37
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Notice:  Undefined offset: 3 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 104
+[11-Jun-2015 15:04:44 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:04:44 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:25:49 Europe/Paris] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 122
+[11-Jun-2015 15:25:49 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 15:25:49 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 15:29:41 Europe/Paris] PHP Parse error:  syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 139
+[11-Jun-2015 16:18:41 Europe/Paris] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 31
+[11-Jun-2015 16:18:41 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 16:18:41 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 16:18:41 Europe/Paris] PHP   2. mysqli_real_escape_string() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:31
+[11-Jun-2015 14:22:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 14:22:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 14:22:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 14:22:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/php/php5.5.12/ext/php_ldap.dll' - The specified module could not be found.
+ in Unknown on line 0
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Notice:  Undefined variable: i in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 136
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:55:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Notice:  Undefined variable: i in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 144
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:55:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Notice:  Undefined variable: i in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 152
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:55:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Notice:  Undefined variable: i in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 160
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:55:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Notice:  Array to string conversion in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 170
+[11-Jun-2015 19:55:23 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:55:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 19:56:34 Europe/Paris] PHP Notice:  Array to string conversion in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 170
+[11-Jun-2015 19:56:34 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 19:56:34 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[11-Jun-2015 20:00:56 Europe/Paris] PHP Notice:  Array to string conversion in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 170
+[11-Jun-2015 20:00:56 Europe/Paris] PHP Stack trace:
+[11-Jun-2015 20:00:56 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[12-Jun-2015 00:02:55 Europe/Paris] PHP Notice:  Undefined index: booking in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 26
+[12-Jun-2015 00:02:55 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:02:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0

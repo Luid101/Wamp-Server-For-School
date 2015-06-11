@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Alle tjenester kjører';
+$w_oneServiceRunning = '%n av %t tjenester kjører';
+$w_allServicesStopped = 'Ingen av %t tjenester kjører';
+
+$w_serverOffline = 'tjener Offline';
+$w_serverOnline = 'tjener Online';
+
+$w_about = '&Om...';
+$w_helpFile = 'Hjelpfil';
+$w_help = 'Hjelp';
+$w_exit = 'Avslutt';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www-mappen';
+$w_logFiles = 'Loggfiler';
+$w_configFiles = 'Konfig-filer';
+$w_apacheModules = 'Apache-moduler';
+$w_phpSettings = 'PHP-innstillinger';
+$w_aliasDirectories = 'Aliaser';
+$w_services = 'Tjenester';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start alle tjenester';
+$w_stopServices = 'Stopp alle tjenester';
+$w_restartServices = 'Gjenstart alle tjenester';
+$w_putOnline = 'Sett Online';
+$w_putOffline = 'Sett Offline';
+
+$w_apacheErrorLog = 'Apache-feillogg';
+$w_apacheAccessLog = 'Apache-adgangslogg';
+$w_phpLog = 'PHP-feillogg';
+$w_mysqlLog = 'MySQL-logg';
+$w_adddAlias = 'Legg til alias';
+$w_refresh = 'Oppdatér';
+$w_phpExtensions = 'PHP-tillegg';
+$w_addExtension = 'Tilføy tillegg';
+
+$w_startResume = '&Start/fortsett tjeneste';
+$w_pauseService = '&Pause tjeneste';
+$w_stopService = 'S&topp tjeneste';
+$w_restartService = '&Gjenstart tjeneste';
+$w_testPort80 = 'Test port 80';
+$w_installService = '&Installér tjeneste';
+$w_removeService = '&Fjern tjeneste';
+$w_mysqlConsole = 'MySQL-konsoll';
+
+$w_language = 'Språk';
+
+?>

@@ -1,0 +1,53 @@
+﻿<?php
+
+$w_allServicesRunning = 'جميع الخدمات فعّالة';
+$w_oneServiceRunning = '%n من %t خدمات فعّالة';
+$w_allServicesStopped = 'جميع الخدمات الـ%t غير مفعّلة';
+
+$w_serverOffline = 'الخادم مفعّل';
+$w_serverOnline = 'الخادم غير مفعّل';
+
+$w_about = 'عن البرنامج...';
+$w_helpFile = 'ملف المساعدة';
+$w_help = 'مساعدة';
+$w_exit = 'خروج';
+
+$w_localhost = 'الخادم المحلي';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'ملف الويب';
+$w_logFiles = 'ملف السجلات';
+$w_configFiles = 'ملف الإعدادات';
+$w_apacheModules = 'وحدات Apache';
+$w_phpSettings = 'إعدادات PHP';
+$w_aliasDirectories = 'ملف الأسماء المستعارة';
+$w_services = 'الخدمات';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'تشغيل جميع الخدمات';
+$w_stopServices = 'إيقاف جميع الخدمات';
+$w_restartServices = 'إعادة تشغيل جميع الخدمات';
+$w_putOnline = 'تفعيل الدخول من الخارج';
+$w_putOffline = 'إيقاف الدخول من الخارج';
+
+$w_apacheErrorLog = 'سجل أخطاء Apache';
+$w_apacheAccessLog = 'سجل الدخول على Apache';
+$w_phpLog = 'سجل أخطاء PHP';
+$w_mysqlLog = 'سجل MySQL';
+$w_adddAlias = 'إضافة إسم مستعار';
+$w_refresh = 'تحديث';
+$w_phpExtensions = 'تمديدات PHP';
+$w_addExtension = 'إضافة تمديد';
+
+$w_startResume = 'إيقاف وإعادة تشغيل الخدمة';
+$w_pauseService = 'إيقاف الخدمة مؤقتاً';
+$w_stopService = 'إيقاف الخدمة';
+$w_restartService = 'إعادة تشغيل الخدمة';
+$w_testPort80 = 'فحص مدخل 80';
+$w_installService = 'تثبيت الخدمة';
+$w_removeService = 'حذف الخدمة';
+$w_mysqlConsole = 'مركز أوامر MySQL';
+
+$w_language = 'اللغة';
+
+?>

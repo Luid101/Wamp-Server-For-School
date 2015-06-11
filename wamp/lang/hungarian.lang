@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Minden szolgáltatás fut';
+$w_oneServiceRunning = '%t szolgáltatásból %n fut';
+$w_allServicesStopped = 'A %t szolgáltatásból egy sem fut';
+
+$w_serverOffline = 'Szerver Offline';
+$w_serverOnline = 'Szerver Online';
+
+$w_about = '&Névjegy...';
+$w_helpFile = 'Súgó Fájl';
+$w_help = 'Súgó';
+$w_exit = 'Kilépés';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www könyvtár';
+$w_logFiles = 'Napló fájlok';
+$w_configFiles = 'Konfigurációs fájlok';
+$w_apacheModules = 'Apache modulok';
+$w_phpSettings = 'PHP beállítások';
+$w_aliasDirectories = 'Alias könyvtárak';
+$w_services = 'Szolgáltatások';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Minden szolgáltatás elindítása';
+$w_stopServices = 'Minden szolgáltatás leállítása';
+$w_restartServices = 'Minden szolgáltatás újraindítása';
+$w_putOnline = 'Online állapotba helyezés';
+$w_putOffline = 'Offline állapotba helyezés';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Alias hozzáadása';
+$w_refresh = 'Frissítés';
+$w_phpExtensions = 'PHP kiterjesztések';
+$w_addExtension = 'Kiterjesztés hozzáadása';
+
+$w_startResume = 'Szolgáltatás &Indítása/Újraindítása';
+$w_pauseService = 'Szolgáltatás &szüneteltetése';
+$w_stopService = 'Szolgáltatás &Leállítása';
+$w_restartService = 'Szolgáltatás &Újraindítása';
+$w_testPort80 = '80-as port tesztelése';
+$w_installService = 'Szolgáltatás &Telepítése';
+$w_removeService = '&Távoli szolgáltatás';
+$w_mysqlConsole = 'MySQL konzol';
+
+$w_language = 'Nyelv';
+
+?>

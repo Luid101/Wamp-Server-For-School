@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Alle servicer kører';
+$w_oneServiceRunning = '%n af %t servicer kører';
+$w_allServicesStopped = 'Ingen af %t servicer kører';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&About...';
+$w_helpFile = 'Hjælp Fil';
+$w_help = 'Hjælp';
+$w_exit = 'Exit';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www mappen';
+$w_logFiles = 'Log filer';
+$w_configFiles = 'Config filer';
+$w_apacheModules = 'Apache moduler';
+$w_phpSettings = 'PHP indstillinger';
+$w_aliasDirectories = 'Genveje';
+$w_services = 'Servicer';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start Alle Servicer';
+$w_stopServices = 'Stop Alle Servicer';
+$w_restartServices = 'Genstart Alle Servicer';
+$w_putOnline = 'Sæt Online';
+$w_putOffline = 'Sæt Offline';
+
+$w_apacheErrorLog = 'Apache fejl log';
+$w_apacheAccessLog = 'Apache adgangs log';
+$w_phpLog = 'PHP fejl log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Tilføj en genvej';
+$w_refresh = 'Genlæs';
+$w_phpExtensions = 'PHP tilføjelser';
+$w_addExtension = 'Add tilføjelse';
+
+$w_startResume = '&Start/forsæt Service';
+$w_pauseService = '&Pause Service';
+$w_stopService = 'S&top Service';
+$w_restartService = '&Genstart Service';
+$w_testPort80 = 'Test Port 80';
+$w_installService = '&Installer Service';
+$w_removeService = '&Fjern Service';
+$w_mysqlConsole = 'MySQL kontrol';
+
+$w_language = 'Sprog';
+
+?>

@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Tutti i servizi in funzione';
+$w_oneServiceRunning = '%n di %t servizi in funzione';
+$w_allServicesStopped = 'nessuno di%t servizi in funzione';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = 'su wamp...';
+$w_helpFile = 'Aiuto';
+$w_help = 'Aiuto';
+$w_exit = 'Esci';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www directory';
+$w_logFiles = 'Log files';
+$w_configFiles = 'Config files';
+$w_apacheModules = 'Moduli Apache';
+$w_phpSettings = 'Impostazioni PHP';
+$w_aliasDirectories = 'Alias directories';
+$w_services = 'Servizi';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Avvia tutti i Servizi';
+$w_stopServices = 'Ferma tutti i Servizi';
+$w_restartServices = 'Riavvia tutti i Servizi';
+$w_putOnline = 'Metti Online';
+$w_putOffline = 'Metti Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Aggiungi un alias';
+$w_refresh = 'Aggiorna';
+$w_phpExtensions = 'Estensioni PHP';
+$w_addExtension = 'Aggiungi estensione';
+
+$w_startResume = '&Avvia/Continua Servizio';
+$w_pauseService = '&Pausa Servizio';
+$w_stopService = '&Ferma Servizio';
+$w_restartService = '&Riavvia Servizio';
+$w_testPort80 = 'Test Porta 80';
+$w_installService = '&Installa Servizio';
+$w_removeService = '&Rimuovi Servizio';
+$w_mysqlConsole = 'MySQL console';
+
+$w_language = 'Lingua';
+
+?>

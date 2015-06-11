@@ -1,0 +1,55 @@
+<?php
+
+// translated by Sven Forum
+
+$w_allServicesRunning = 'Alle services in werking';
+$w_oneServiceRunning = '%n van %t services in werking';
+$w_allServicesStopped = 'Geen enkele van %t services in werking';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&Over...';
+$w_helpFile = 'Help Bestand';
+$w_help = 'Help';
+$w_exit = 'Afsluiten';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www map';
+$w_logFiles = 'Logbestanden';
+$w_configFiles = 'Configuratiebestanden';
+$w_apacheModules = 'Apache modules';
+$w_phpSettings = 'PHP instellingen';
+$w_aliasDirectories = 'Alias mappen';
+$w_services = 'Services';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start Alle Services';
+$w_stopServices = 'Stop Alle Services';
+$w_restartServices = 'Herstart Alle Services';
+$w_putOnline = 'Zet Online';
+$w_putOffline = 'Zet Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Voeg een alias toe';
+$w_refresh = 'Vernieuw';
+$w_phpExtensions = 'PHP uitbreidingen';
+$w_addExtension = 'Voeg een uitbreiding toe';
+
+$w_startResume = '&Start/Hervat Service';
+$w_pauseService = '&Pauseer Service';
+$w_stopService = 'S&top Service';
+$w_restartService = '&Herstart Service';
+$w_testPort80 = 'Test Poort 80';
+$w_installService = '&Installeer Service';
+$w_removeService = '&Verwijder Service';
+$w_mysqlConsole = 'MySQL console';
+
+$w_language = 'Taal';
+
+?>

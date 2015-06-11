@@ -1,0 +1,55 @@
+<?php
+
+//translated by radalin
+
+$w_allServicesRunning = 'Bütün Servisler Çalisiyor';
+$w_oneServiceRunning = '%n servisten %t tanesi çalisiyor';
+$w_allServicesStopped = '%t servisin hiç biri çalismiyor';
+
+$w_serverOffline = 'sunucu çevrimdisi';
+$w_serverOnline = 'sunucu çevrimiçi';
+
+$w_about = '&Hakkinda';
+$w_helpFile = 'Yardim';
+$w_help = 'Yardim';
+$w_exit = 'Kapat';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www klasörü';
+$w_logFiles = 'Kayit Dosyalari';
+$w_configFiles = 'Ayar Dosyalari';
+$w_apacheModules = 'Apache modülleri';
+$w_phpSettings = 'PHP ayarlari';
+$w_aliasDirectories = 'Kisayol adresleri';
+$w_services = 'Servisler';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Bütün Servisleri Baslat';
+$w_stopServices = 'Bütün Servisleri Durdur';
+$w_restartServices = 'Bütün Servisleri Yeniden Baslat';
+$w_putOnline = 'Çevrimiçi Hale Getir';
+$w_putOffline = 'Çevrimdisi Hale Getir';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Kisayol Ekle';
+$w_refresh = 'Yenile';
+$w_phpExtensions = 'PHP uzantilari';
+$w_addExtension = 'Uzanti Ekle';
+
+$w_startResume = 'Servisi &Baslat/Devam Ettir';
+$w_pauseService = 'Servisi D&uraklat ';
+$w_stopService = 'Servisi &Durdur';
+$w_restartService = 'Servisi &Yeniden Baslat';
+$w_testPort80 = '80 Portunu Dene';
+$w_installService = 'Servisi &Kur';
+$w_removeService = 'Servisi K&aldir';
+$w_mysqlConsole = 'MySQL konsol';
+
+$w_language = 'Dil';
+
+?>

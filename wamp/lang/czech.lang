@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Všechny služby beží';
+$w_oneServiceRunning = '%n z %t služeb beží';
+$w_allServicesStopped = 'Žádná z %t služeb nebeží';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&o aplikaci...';
+$w_helpFile = 'Nápoveda';
+$w_help = 'Nápoveda';
+$w_exit = 'Konec';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www adresár';
+$w_logFiles = 'Log soubory';
+$w_configFiles = 'Konfiguracní sobory';
+$w_apacheModules = 'Moduly Apache';
+$w_phpSettings = 'PHP nastavení';
+$w_aliasDirectories = 'Alias adresáre';
+$w_services = 'Služby';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Zapnout všechny služby';
+$w_stopServices = 'Vypnout všechny služby';
+$w_restartServices = 'Restartovat všechny služby';
+$w_putOnline = 'Nastavit Online';
+$w_putOffline = 'Nastavit Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Pridat alias';
+$w_refresh = 'Obnovit';
+$w_phpExtensions = 'PHP rozšírení';
+$w_addExtension = 'Pridat rozšírení';
+
+$w_startResume = '&Zapnout/obnovit službu';
+$w_pauseService = '&Pozastavit službu';
+$w_stopService = '&Zastavit službu ';
+$w_restartService = '&Restartovat službu';
+$w_testPort80 = 'Otestovat port 80';
+$w_installService = '&Nainstalovat službu';
+$w_removeService = '&Odstranit službu';
+$w_mysqlConsole = 'MySQL konzola';
+
+$w_language = 'Jazyk';
+
+?>

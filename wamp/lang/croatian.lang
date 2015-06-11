@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Svi servisi rade';
+$w_oneServiceRunning = '%n od %t servisa rade';
+$w_allServicesStopped = 'Nijedan od %t servisa ne rade';
+
+$w_serverOffline = 'server odspojen';
+$w_serverOnline = 'server spojen';
+
+$w_about = '&O...';
+$w_helpFile = 'Pomoc';
+$w_help = 'Pomoc';
+$w_exit = 'Izlaz';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www direktorij';
+$w_logFiles = 'Bilješke';
+$w_configFiles = 'Konfiguracija';
+$w_apacheModules = 'Apache moduli';
+$w_phpSettings = 'PHP postavke';
+$w_aliasDirectories = 'Kratice direktorija';
+$w_services = 'Servisi';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Pokreni Sve Servise';
+$w_stopServices = 'Zaustavi Sve Servise';
+$w_restartServices = 'Ponovo Pokreni Sve Servise';
+$w_putOnline = 'Spoji';
+$w_putOffline = 'Odspoji';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Dodaj kraticu';
+$w_refresh = 'Osvježi';
+$w_phpExtensions = 'PHP ekstenzije';
+$w_addExtension = 'Dodaj ekstenziju';
+
+$w_startResume = '&Pokreni/Nastavi Servis';
+$w_pauseService = '&Pauziraj Servis';
+$w_stopService = 'Z&austavi Servis';
+$w_restartService = '&Ponovo pokreni Servis';
+$w_testPort80 = 'Testiraj Port 80';
+$w_installService = '&Instaliraj Servis';
+$w_removeService = '&Ukloni Servis';
+$w_mysqlConsole = 'MySQL konzola';
+
+$w_language = 'Jezik';
+
+?>

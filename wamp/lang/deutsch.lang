@@ -1,0 +1,55 @@
+<?php
+
+// translated by Lars Knickrehm : lars-sh@arcor.de
+
+$w_allServicesRunning = 'Alle Services laufen';
+$w_oneServiceRunning = '%n von%t Services laufen';
+$w_allServicesStopped = 'Kein Service von %t läuft';
+
+$w_serverOffline = 'Offline';
+$w_serverOnline = 'Online';
+
+$w_about = 'Über...';
+$w_helpFile = 'Hilfe';
+$w_help = 'Hilfe';
+$w_exit = 'Beenden';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www-Ordner';
+$w_logFiles = 'Log-Dateien';
+$w_configFiles = 'Einstellungsdateien';
+$w_apacheModules = 'Apache-Module';
+$w_phpSettings = 'PHP-Einstellungen';
+$w_aliasDirectories = 'Alias-Ordner';
+$w_services = 'Services';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Alle Services starten';
+$w_stopServices = 'Alle Services stoppen';
+$w_restartServices = 'Alle Services neustarten';
+$w_putOnline = 'Online setzen';
+$w_putOffline = 'Offline setzen';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Alias hinzufügen';
+$w_refresh = 'Aktualisieren';
+$w_phpExtensions = 'PHP-Erweiterungen';
+$w_addExtension = 'Erweiterung hinzufügen';
+
+$w_startResume = 'Service starten';
+$w_pauseService = 'Service anhalten';
+$w_stopService = 'Service stoppen';
+$w_restartService = 'Service neustarten';
+$w_testPort80 = 'Port 80 testen';
+$w_installService = 'Service installieren';
+$w_removeService = 'Service deinstallieren';
+$w_mysqlConsole = 'MySQL-Kconsole';
+
+$w_language = 'Sprache';
+
+?>

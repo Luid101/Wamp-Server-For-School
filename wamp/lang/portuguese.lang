@@ -1,0 +1,55 @@
+<?php
+
+//translated by onlooker_morten
+
+$w_allServicesRunning = 'Todos os serviços rodando';
+$w_oneServiceRunning = '%n de %t serviços rodando';
+$w_allServicesStopped = 'Nenhum de %t serviços rodando';
+
+$w_serverOffline = 'servidor Offline';
+$w_serverOnline = 'servidor Online';
+
+$w_about = '&Sobre...';
+$w_helpFile = 'Arquivo de ajuda';
+$w_help = 'Ajuda';
+$w_exit = 'Sair';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'diretório www';
+$w_logFiles = 'Logs';
+$w_configFiles = 'Arquivos de configuração';
+$w_apacheModules = 'Módulos Apache';
+$w_phpSettings = 'Opções PHP';
+$w_aliasDirectories = 'Diretórios de Alias';
+$w_services = 'Serviços';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Iniciar todos os Serviços';
+$w_stopServices = 'Parar todos os Serviços';
+$w_restartServices = 'Reiniciar todos os Serviços';
+$w_putOnline = 'Colocar Online';
+$w_putOffline = 'Colocar Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Adicionar um alias';
+$w_refresh = 'Atualizar';
+$w_phpExtensions = 'Extensões PHP';
+$w_addExtension = 'Adicionar extensão';
+
+$w_startResume = '&Iniciar/Resumir Serviço';
+$w_pauseService = '&Pausar Serviço';
+$w_stopService = 'P&arar Serviço';
+$w_restartService = '&Reiniciar Serviço';
+$w_testPort80 = 'Testar Porta 80';
+$w_installService = '&Instalar Serviço';
+$w_removeService = '&Remover Serviço';
+$w_mysqlConsole = 'Console MySQL';
+
+$w_language = 'Idioma';
+
+?>

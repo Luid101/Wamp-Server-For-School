@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'All services running';
+$w_oneServiceRunning = '%n of %t services running';
+$w_allServicesStopped = 'None of %t services running';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&About...';
+$w_helpFile = 'Help File';
+$w_help = 'Help';
+$w_exit = 'Exit';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www directory';
+$w_logFiles = 'Log files';
+$w_configFiles = 'Config files';
+$w_apacheModules = 'Apache modules';
+$w_phpSettings = 'PHP settings';
+$w_aliasDirectories = 'Alias directories';
+$w_services = 'Services';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start All Services';
+$w_stopServices = 'Stop All Services';
+$w_restartServices = 'Restart All Services';
+$w_putOnline = 'Put Online';
+$w_putOffline = 'Put Offline';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_adddAlias = 'Add an alias';
+$w_refresh = 'Refresh';
+$w_phpExtensions = 'PHP extensions';
+$w_addExtension = 'Add extension';
+
+$w_startResume = '&Start/Resume Service';
+$w_pauseService = '&Pause Service';
+$w_stopService = 'S&top Service';
+$w_restartService = '&Restart Service';
+$w_testPort80 = 'Test Port 80';
+$w_installService = '&Install Service';
+$w_removeService = '&Remove Service';
+$w_mysqlConsole = 'MySQL console';
+
+$w_language = 'Language';
+
+?>

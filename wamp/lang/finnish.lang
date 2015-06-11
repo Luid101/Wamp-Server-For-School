@@ -1,0 +1,53 @@
+<?php
+
+$w_allServicesRunning = 'Kaikki palvelut käynnissä';
+$w_oneServiceRunning = '%n / %t palvelua käynnissä';
+$w_allServicesStopped = 'Ei yhtään %t palvelusta käynnissä';
+
+$w_serverOffline = 'palvelin offline-tilassa';
+$w_serverOnline = 'palvelin online-tilassa';
+
+$w_about = '&Tietoja...';
+$w_helpFile = 'Ohjetiedosto';
+$w_help = 'Ohje';
+$w_exit = 'Lopeta';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www-hakemisto';
+$w_logFiles = 'Lokitiedostot';
+$w_configFiles = 'Konfigurointitiedostot';
+$w_apacheModules = 'Apachen moduulit';
+$w_phpSettings = 'PHP:n asetukset';
+$w_aliasDirectories = 'Alias hakemistot';
+$w_services = 'Palvelut';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Käynnistä kaikki palvelut';
+$w_stopServices = 'Sammuta kaikki palvelut';
+$w_restartServices = 'Käynnistä uudelleen kaikki palvelut';
+$w_putOnline = 'Aseta Online-tilaan';
+$w_putOffline = 'Aseta Offline-tilaan';
+
+$w_apacheErrorLog = 'Apachen virheloki';
+$w_apacheAccessLog = 'Apachen valvontaloki';
+$w_phpLog = 'PHP:n virheloki';
+$w_mysqlLog = 'MySQL:n loki';
+$w_adddAlias = 'Lisää alias';
+$w_refresh = 'Päivitä';
+$w_phpExtensions = 'PHP:n laajennukset';
+$w_addExtension = 'Lisää laajennus';
+
+$w_startResume = 'Käynni&stä/Sammuta palvelu';
+$w_pauseService = '&Pysäytä palvelu';
+$w_stopService = 'Lope&ta palvelu';
+$w_restartService = 'Käynnistä &uudelleen palvelu';
+$w_testPort80 = 'Testaa portti 80';
+$w_installService = '&Asenna palvelu';
+$w_removeService = 'P&oista palvelu';
+$w_mysqlConsole = 'MySQL konsoli';
+
+$w_language = 'Kieli';
+
+?>
