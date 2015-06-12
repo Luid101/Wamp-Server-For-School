@@ -1,7 +1,7 @@
 <html>
 	<header>
 		<?php
-			include('C:\Program Files (x86)\wamp\www\db.php');//include our database login file
+			include('../db.php');//include our database login file
 			
 			//make a query for announcements from the announcements database
 			$sql = "SELECT title, body, days_of_week, date_start, date_end FROM announcements";
@@ -18,7 +18,7 @@
 			$c_time =  strtotime(date("Y/m/d"));
 			
 			//string for demacation
-			$demac = " *NEW*------*NEW*--------*NEW*------------------------------------------------------------------------------------------------------------------------------------------------ ";
+			$demac = " -------------------------------------------*NEW*------*NEW*--------*NEW*------------------------------------------------------------ ";
 			
 			//announcement string
 			$all = "";
@@ -41,7 +41,7 @@
 						//****Too much code that does the same thing** change to a function
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'<br />'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
+							$all = $all.'<br />'.$demac.'</br>'.'</br>'.'</br>'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
 							//echo $row['days_of_week'];
 						}
 						
@@ -99,7 +99,7 @@
 			}
 			
 			//show news
-			echo "<marquee  behavior='scroll' direction='up' scrollamount='1' height='680' width='700' >
+			echo "<marquee  behavior='scroll' direction='up' style='text-align:center; margin-left:300px; margin-top:100p' scrollamount='1' height='680' width='700' >
 					$all</marquee>";
 		?>
 	</header>

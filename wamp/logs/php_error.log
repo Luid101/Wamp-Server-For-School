@@ -274,3 +274,20 @@
 [12-Jun-2015 03:39:52 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
 [12-Jun-2015 04:41:37 Europe/Paris] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php on line 107
 [12-Jun-2015 04:46:26 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php on line 117
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Warning:  include(C:\Program Files (x86)\wamp\www\db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php on line 4
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 05:18:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:0
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Warning:  include(): Failed opening 'C:\Program Files (x86)\wamp\www\db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php on line 4
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 05:18:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:0
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php on line 8
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 05:18:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:0
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php on line 8
+[12-Jun-2015 05:18:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 05:18:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:0
+[12-Jun-2015 05:18:31 Europe/Paris] PHP   2. mysqli_query() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:8
+[11-Jun-2015 23:18:31 America/Toronto] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php on line 27
+[11-Jun-2015 23:18:31 America/Toronto] PHP Stack trace:
+[11-Jun-2015 23:18:31 America/Toronto] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:0
+[11-Jun-2015 23:18:31 America/Toronto] PHP   2. mysqli_num_rows() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\show_announce.php:27
