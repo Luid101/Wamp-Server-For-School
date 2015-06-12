@@ -228,3 +228,32 @@
 [12-Jun-2015 00:02:55 Europe/Paris] PHP Notice:  Undefined index: booking in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php on line 26
 [12-Jun-2015 00:02:55 Europe/Paris] PHP Stack trace:
 [12-Jun-2015 00:02:55 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_new_booking.php:0
+[12-Jun-2015 00:31:51 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 98
+[12-Jun-2015 00:31:51 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:31:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:31:51 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 134
+[12-Jun-2015 00:31:51 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:31:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:32:58 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 98
+[12-Jun-2015 00:32:58 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:32:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:32:58 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 134
+[12-Jun-2015 00:32:58 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:32:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:45:13 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 98
+[12-Jun-2015 00:45:13 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:45:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:45:13 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 134
+[12-Jun-2015 00:45:13 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:45:13 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:46:31 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 98
+[12-Jun-2015 00:46:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:46:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:46:31 Europe/Paris] PHP Notice:  Undefined variable: id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php on line 134
+[12-Jun-2015 00:46:31 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:46:31 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\book_a_room.php:0
+[12-Jun-2015 00:49:34 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php on line 199
+[12-Jun-2015 00:49:53 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php on line 199
+[12-Jun-2015 00:50:10 Europe/Paris] PHP Notice:  Undefined variable: submit in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php on line 124
+[12-Jun-2015 00:50:10 Europe/Paris] PHP Stack trace:
+[12-Jun-2015 00:50:10 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\edit_existing_booking.php:0

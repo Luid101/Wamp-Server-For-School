@@ -50,7 +50,9 @@
 		
 		//tells what has been reserved
 		$confamation = "";
-		//echo $room;
+		
+		//only when the submit button is clicked
+		$submit = @$_POST['submit'];
 		
 		//data unique to the edit existing booking page
 		//every already made entry has an id
@@ -121,78 +123,82 @@
 		$values = array("'$date'","' '","' '","' '","' '","' '","' '");//values of the periods
 		
 		
-		//make sure that all three lunch periods are not picked
-		if($periods[2] && $periods[2] && $periods[4])
-		{
-			echo 'You can\'t pick all 3 lunch periods'; 
+		if($submit){
+			
+			//make sure that all three lunch periods are not picked
+			if($periods[2] && $periods[2] && $periods[4])
+			{
+				echo 'You can\'t pick all 3 lunch periods'; 
+			}
+			//if 3 lunches are not picked
+			else
+			{
+				
+				
+				if($periods[0])
+				{
+					//set the value at that point to fullname
+					$values[1] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period1"." has been reserved by ". $fullname."</br>"));
+				}
+				if($periods[1])
+				{
+					//set the value at that point to fullname
+					$values[2] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period2"." has been reserved by ". $fullname."</br>"));
+				}
+				if($periods[2])
+				{
+					//set the value at that point to fullname
+					$values[3] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3A"." has been reserved by ". $fullname."</br>"));
+				}
+				if($periods[3])
+				{
+					//set the value at that point to fullname
+					$values[4] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3B"." has been reserved by ". $fullname."</br>"));
+				}
+				if($periods[4])
+				{
+					//set the value at that point to fullname
+					$values[5] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3C"." has been reserved by ". $fullname."</br>"));
+				}
+				if($periods[5])
+				{
+					//set the value at that point to fullname
+					$values[6] = "'".$fullname."'";
+					//send confirmation
+					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period4"." has been reserved by ". $fullname."</br>"));
+				}
+					
+					$val = implode(',',$values);
+					//echo $val;
+				
+					//create a new row
+					$insert = mysqli_query($db,"INSERT INTO $room (Date,Period_1, Period_2, Period_3A, Period_3B, Period_3C, period_4) VALUES($val)")
+					or die("Error".mysqli_error($db));
+					
+					//done booking
+					$_SESSION['booking'] = false; 
+					
+					//store the conformation into a session slot
+					$_SESSION['conformation'] = $confamation;
+					
+					//go to the end booking page
+					header("Location: booking_done.php");
+					
+					//confirm
+					//echo $confamation;
+			}
 		}
-		//if 3 lunches are not picked
-		else
-		{
-			
-			
-			if($periods[0])
-			{
-				//set the value at that point to fullname
-				$values[1] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period1"." has been reserved by ". $fullname."</br>"));
-			}
-			if($periods[1])
-			{
-				//set the value at that point to fullname
-				$values[2] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period2"." has been reserved by ". $fullname."</br>"));
-			}
-			if($periods[2])
-			{
-				//set the value at that point to fullname
-				$values[3] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3A"." has been reserved by ". $fullname."</br>"));
-			}
-			if($periods[3])
-			{
-				//set the value at that point to fullname
-				$values[4] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3B"." has been reserved by ". $fullname."</br>"));
-			}
-			if($periods[4])
-			{
-				//set the value at that point to fullname
-				$values[5] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3C"." has been reserved by ". $fullname."</br>"));
-			}
-			if($periods[5])
-			{
-				//set the value at that point to fullname
-				$values[6] = "'".$fullname."'";
-				//send confirmation
-				$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period4"." has been reserved by ". $fullname."</br>"));
-			}
-				
-				$val = implode(',',$values);
-				//echo $val;
-			
-				//create a new row
-				$insert = mysqli_query($db,"INSERT INTO $room (Date,Period_1, Period_2, Period_3A, Period_3B, Period_3C, period_4) VALUES($val)")
-				or die("Error".mysqli_error($db));
-				
-				//done booking
-				$_SESSION['booking'] = false; 
-				
-				//store the conformation into a session slot
-				$_SESSION['conformation'] = $confamation;
-				
-				//go to the end booking page
-				header("Location: booking_done.php");
-				
-				//confirm
-				//echo $confamation;
-		}
+
 		
 		
 
