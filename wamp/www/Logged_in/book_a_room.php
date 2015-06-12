@@ -95,7 +95,7 @@
 								if($row['Date'] == $date)
 								{
 									$date_exist = 1; 
-									$row['id'] = $id;
+									$id = $row['id'] ;
 								}
 							}
 						}
@@ -138,6 +138,8 @@
 					
 					//go to the add new booking location
 					header("Location: edit_existing_booking.php");
+					
+					//debug* echo $id;
 				}
 				
 			}

@@ -54,11 +54,29 @@
 		//only when the submit button is clicked
 		$submit = @$_POST['submit'];
 		
+		//******-------------------******
 		//data unique to the edit existing booking page
 		//every already made entry has an id
 		$id = $_SESSION['id'];
 		
-		echo $id;
+		//make a query for all data for the periods
+		$sql = "SELECT * FROM `room_a` WHERE id = $id";
+		$result = mysqli_query($db, $sql);
+		
+		//collect the results from our row
+		while($row = mysqli_fetch_assoc($result)){
+		
+		$period1 = $row['Period_1']; 
+		$period2 = $row['Period_2'];
+		$period3a = $row['Period_3A'];
+		$period3b= $row['Period_3B'];
+		$period3c = $row['Period_3C'];
+		$period4 = $row['Period_4']; 
+		
+		
+		}
+		
+		//echo $id;
 		
 		?>
 		
@@ -85,33 +103,33 @@
 			</tr>
 			<tr>
 				<td> Period 1 </td>
-				<td> No.</td>
-				<td> <input name = "period1" type="checkbox">Yes</td>
+				<td><?php if($period1 == ' '){ echo "No";} else{ echo "Yes";} ?></td>
+				<td> <?php if($period1 == ' '){ echo "<input name = 'period1' type='checkbox'>";} else{echo "Reserved by $period1";} ?></td>
 			</tr>
 			<tr>
 				<td> Period 2 </td>
-				<td> No. </td>
-				<td> <input name = "period2" type="checkbox" >Yes</td>
+				<td> <?php if($period2 == ' '){ echo "No";} else{ echo "Yes";} ?> </td>
+				<td> <?php if($period2 == ' '){ echo "<input name = 'period2' type='checkbox'>";} else{echo "Reserved by $period2";} ?></td>
 			</tr>
 			<tr>
 				<td> Period 3A </td>
-				<td> No.</td>
-				<td> <input name = "period3a" type="checkbox" >Yes </td>
+				<td>  <?php if($period3a == ' '){ echo "No";} else{ echo "Yes";} ?></td>
+				<td> <?php if($period3a == ' '){ echo "<input name = 'period3a' type='checkbox'>";} else{echo "Reserved by $period3a";} ?> </td>
 			</tr>
 			<tr>
 				<td> Period 3B </td>
-				<td> No.</td>
-				<td> <input name = "period3b" type="checkbox" >Yes </td>
+				<td>  <?php if($period3b == ' '){ echo "No";} else{ echo "Yes";} ?></td>
+				<td> <?php if($period3b == ' '){ echo "<input name = 'period3b' type='checkbox'>";} else{echo "Reserved by $period3b";} ?> </td>
 			</tr>
 			<tr>
 				<td> Period 3C </td>
-				<td> No. </td>
-				<td> <input name = "period3c" type="checkbox" >Yes </td>
+				<td>  <?php if($period3c == ' '){ echo "No";} else{ echo "Yes";} ?></td>
+				<td> <?php if($period3c == ' '){ echo "<input name = 'period3c' type='checkbox'>";} else{echo "Reserved by $period3c";} ?> </td>
 			</tr>
 			<tr>
 				<td> Period 4 </td>
-				<td> No.</td>
-				<td> <input name = "period4" type="checkbox" >Yes </td>
+				<td>  <?php if($period4 == ' '){ echo "No";} else{ echo "Yes";} ?></td>
+				<td> <?php if($period4 == ' '){ echo "<input name = 'period4' type='checkbox'>";} else{echo "Reserved by $period4";} ?> </td>
 			</tr>
 		</table>
 		</br>
@@ -137,43 +155,56 @@
 				
 				if($periods[0])
 				{
-					//set the value at that point to fullname
-					$values[1] = "'".$fullname."'";
+					//period 1 add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_1 = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period1"." has been reserved by ". $fullname."</br>"));
 				}
 				if($periods[1])
 				{
-					//set the value at that point to fullname
-					$values[2] = "'".$fullname."'";
+					//period 2 add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_2 = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period2"." has been reserved by ". $fullname."</br>"));
 				}
 				if($periods[2])
 				{
-					//set the value at that point to fullname
-					$values[3] = "'".$fullname."'";
+					
+					//period 3a add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_3A = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3A"." has been reserved by ". $fullname."</br>"));
 				}
 				if($periods[3])
 				{
-					//set the value at that point to fullname
-					$values[4] = "'".$fullname."'";
+					//period 3b add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_3B = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3B"." has been reserved by ". $fullname."</br>"));
 				}
 				if($periods[4])
 				{
-					//set the value at that point to fullname
-					$values[5] = "'".$fullname."'";
+					///period 3C add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_3C = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period3C"." has been reserved by ". $fullname."</br>"));
 				}
 				if($periods[5])
 				{
-					//set the value at that point to fullname
-					$values[6] = "'".$fullname."'";
+					//period 4 add value into that column 
+					$insert = mysqli_query($db,"UPDATE $room SET Period_4 = '$fullname' WHERE id = '$id' ")
+					or die("Error".mysqli_error($db));
+					
 					//send confirmation
 					$confamation = $confamation.nl2br( mysqli_real_escape_string( $db,"Period4"." has been reserved by ". $fullname."</br>"));
 				}
@@ -182,8 +213,8 @@
 					//echo $val;
 				
 					//create a new row
-					$insert = mysqli_query($db,"INSERT INTO $room (Date,Period_1, Period_2, Period_3A, Period_3B, Period_3C, period_4) VALUES($val)")
-					or die("Error".mysqli_error($db));
+					//$insert = mysqli_query($db,"INSERT INTO $room (Date,Period_1, Period_2, Period_3A, Period_3B, Period_3C, period_4) VALUES($val)")
+					//or die("Error".mysqli_error($db));
 					
 					//done booking
 					$_SESSION['booking'] = false; 
