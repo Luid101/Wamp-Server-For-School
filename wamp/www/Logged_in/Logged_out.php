@@ -16,7 +16,5 @@
 		?>
 		<br/>
 		<a href="../login.php">Log in</a>
-		</br>
-		<a href="../main.html">Main page</a>
 	</header>
 </html>

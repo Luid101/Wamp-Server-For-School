@@ -1,5 +1,10 @@
 <html>
 	<head>
+	
+	<link rel="stylesheet" href="styles/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	
 		<?php
 			include('db.php');//include our database login file
 			
@@ -103,21 +108,39 @@
 
 		?>
 	</head>
+	
+	
+	<!-- Panel -->
+	
+	<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><b>Login</b></h3>
+  </div>
+  <div class="panel-body">
+    <b>Welcome</b><br></br>
+	
+	
 	<body>
 		<form method = "post">
+			<div class="form-group">
 			<!--make a text box for user name-->
-			<p>Username:<br> <input name = "username" type="text"><br></p>
+			<p><b>Username:</b><br> <input name = "username" type="username" class="form-control" id="exmapleIputEmail1" placeholder="Login ID"><br></p>
+			</div>
 			
 			<!--make a text box for users password-->
-			<p>Password:<br> <input name = "password" type="password"><br></p>
+			<p><b>Password:</b><br> <input name = "password" type="password" class="form-control" placeholder="Password"><br></p>
 			
 			<!--make a submit button-->
-			<p><input name = "submit" type="submit" value="Log In"></p>
+			<p><input name = "submit" type="submit" class="btn btn-primary" value="Log In"></p>
 		</form>
 		
 		<p><br></p>
 		<p><a href="Login.php">Login here.</a></p>
 		<p><a href="Register.php">Register here.</a></p>
+		</body>
 		
-	</body>
+		</div>
+		</div>
+		</div>
+		
 </html>

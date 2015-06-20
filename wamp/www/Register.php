@@ -1,5 +1,11 @@
 <html>
 	<head>
+	
+	<link rel="stylesheet" href="styles/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	
+	
 	<!--This code is not seen-->
 		<?php
 			
@@ -92,26 +98,35 @@
  		?>
 	</head>
 	<body>
+	
+	
+	<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><b>Welcome to the Homepage</b></h3>
+  </div>
+  <div class="panel-body">
+	
+	
 		<!--form goes here-->
 		<form method="post">
 			<!--make a text box for full name-->
-			<p>Fullname:<br> <input name = "fullname" type="text"><br></p><!-- '<br>' are break tags-->
+			<p><b>Fullname:</b><br> <input name = "fullname" type="text" class="form-control"><br></p><!-- '<br>' are break tags-->
 			
 			<!--make a text box for user name-->
-			<p>Username:<br> <input name = "username" type="text"><br></p>
+			<p><b>Username:</b><br> <input name = "username" type="text" class="form-control"><br></p>
 			
 			<!--make a text box for users password-->
-			<p>Password:<br> <input name = "password" type="password"><br></p>
+			<p><b>Password:</b><br> <input name = "password" type="password" class="form-control"><br></p>
 			
 			<!--make a text box for the user to repeat his or her password-->
-			<p>Repeat Password:<br> <input name = "repeatpassword" type="password"><br></p>
+			<p><b>Repeat Password:</b><br> <input name = "repeatpassword" type="password" class="form-control"><br></p>
 			
 			<!--make a submit button-->
-			<p><input name = "submit" type="submit" value="Submit"></p>
+			<p><input name = "submit" class="btn btn-primary"type="submit" value="Submit"></p>
 			
 			<!--radio button for user type-->
 			<br>
-			User Type:
+			<b>User Type:</b>
 			<br>
 			<input type="radio" name="user_type" value="teacher">Teacher
 			<br>
@@ -122,5 +137,9 @@
 		<p><br></p>
 		<p><a href="Login.php">Login here.</a></p>
 		<p><a href="Register.php">Register here.</a></p>
+		
+		</div>
+		</div>
+		</div>
 	</body>
 </html>

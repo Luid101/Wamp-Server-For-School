@@ -18,6 +18,7 @@
 		<?php
 		
 		include('../db.php');//include our database login file
+		include('valid.php');//include the validation script
 			
 		//begin the session
 		session_start();

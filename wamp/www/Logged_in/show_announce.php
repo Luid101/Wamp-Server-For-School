@@ -1,7 +1,20 @@
 <html>
+
+<head>
+
+		<link rel="stylesheet" href="styles/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+
 	<header>
 		<?php
 			include('../db.php');//include our database login file
+			include('add_all_announce.php');//functions for announcements
+			include('valid.php');//include the validation script
 			
 			//make a query for announcements from the announcements database
 			$sql = "SELECT title, body, days_of_week, date_start, date_end FROM announcements";
@@ -29,7 +42,6 @@
 				// get the data of announcements for each row
 				while($row = mysqli_fetch_assoc($result)) 
 				{
-					//strtotime($row['date_start']);
 					
 					if(strtotime($row['date_start']) <= $c_time && strtotime($row['date_end']) >= $c_time)
 					{
@@ -38,59 +50,36 @@
 						$body = $row['body'];
 						
 						if(date("l")=="Monday" && $days[0] == 1 )//if the announcement should air of Monday
-						//****Too much code that does the same thing** change to a function
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'</br>'.'</br>'.'</br>'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
-							//echo $row['days_of_week'];
+							$all = addAllDay($all,$demac,$title,$body);
 						}
 						
 						if(date("l")=="Tuesday" && $days[1] == 1 )//if the announcement should air of Tuesday
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'<br />'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
-							//echo $row['days_of_week'];
+							$all = addAllDay($all,$demac,$title,$body);
 						}
 						
 						if(date("l")=="Wednesday" && $days[2] == 1 )//if the announcement should air of Wednesday
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'<br />'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
-							//echo $row['days_of_week'];
+							$all = addAllDay($all,$demac,$title,$body);
 						}
 						
 						if(date("l")=="Thursday" && $days[3] == 1 )//if the announcement should air of Thursday
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'<br />'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
-							//echo $row['days_of_week'];
+							$all = addAllDay($all,$demac,$title,$body);
 						}
 						
 						if(date("l")=="Friday" && $days[4] == 1 )//if the announcement should air of Friday
 						{
 							//bring all the text into one
-							$all = $all.'<br />'.$demac.'<br />'.'<u>'."<font size='6'>".$title.'</font>'.'</u>'.'<br />'."<font size='4'>".$body.'</font>';
-							/*
-							echo "<marquee  behavior='scroll' direction='up' scrollamount='1'>
-									<br>$demac</br>
-									<br>$title</br>
-									<br>$body</br>
-									</marquee>";
-							*/
-							//echo "<br><marquee  behavior='scroll' direction='up' scrollamount='1'><u>$title</u></marquee></br>";
-							//echo "<marquee  behavior='scroll' direction='up' scrollamount='1'>$body</marquee>";
+							$all = addAllDay($all,$demac,$title,$body);
 						}
-						
-						//echo $row['date_start'];
+
 					}
-					
-					//check all announcements
-				    //echo  $row['title'];
-					//echo  $row['body'];
-					//echo  $row['days_of_week'];
-					
-					//echo  $row['date_end'];
-				
 				}
 			}
 			else 
@@ -100,10 +89,14 @@
 			
 			//show news
 			echo "<marquee  behavior='scroll' direction='up' style='text-align:center; margin-left:300px; margin-top:100p' scrollamount='1' height='680' width='700' >
-					$all</marquee>";
+				$all</marquee>";
 		?>
 	</header>
-	<body>
-		<p><a href="Loged_in.php"> Back to Home</a></p>
+	<body>	
+		<form action="Loged_in.php">
+			<input type="submit"	value="Back to Home" class="btn btn-primary">
+		
+		</form>
+		
 	</body>
 </html>
