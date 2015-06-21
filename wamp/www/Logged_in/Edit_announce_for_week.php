@@ -245,7 +245,7 @@
 		<br></br>
 		<!-- Back button -->
 	<form action="Loged_in.php">
-			<input type="submit"	value="Back to Home" class="btn btn-primary">
+			<input type="submit" value="Back to Home" class="btn btn-primary">
 		</form>
 	
 	

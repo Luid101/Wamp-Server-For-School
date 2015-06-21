@@ -31,7 +31,7 @@
 			$encpassword = md5($password);
 			
 			//make a query for username and password
-			$sql = "SELECT username, Password, user_type, fullname FROM users";
+			$sql = "SELECT id, username, Password, user_type, fullname FROM users";
 			$result = mysqli_query($db, $sql);
 			
 			
@@ -45,6 +45,9 @@
 					while($row = mysqli_fetch_assoc($result)) 
 					{
 						//echo  " UName: " . $row['username']." Pword: " . $row['Password']."<br>";
+						
+						//get the users id
+						$_SESSION['user_id'] = $row['id'];
 						
 						//check username and password
 						if($username == $row['username'] && $encpassword == $row['Password']) 

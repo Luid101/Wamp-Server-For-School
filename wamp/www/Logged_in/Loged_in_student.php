@@ -22,7 +22,7 @@
 	<body>
 		<ul>
 			<li><a href="#forums">Enter the forums</a></li>
-			<li><a href="#polls">View the polls</a></li>
+			<li><a href="polls_students/view_polls.php">View the polls</a></li>
 		</ul>
 		<br /><!--new line-->
 		<a href="Logged_out.php">Log Out</a><!-->

@@ -100,6 +100,11 @@
 			<li><a href="book_a_room.php">Book a room</a></li>
 			<li><a href="Choose_room.php">Look at booked rooms (Cancel bookings here)</a></li>
 		</ul>
+		<b><p>Edit Polls</p></b>
+		<ul>
+			<li><a href="polls_teachers/new_poll.php">Create a poll</a></li>
+			<li><a href="polls_teachers/view_polls.php">View all my polls</a></li>
+		</ul>
 		<br />
 		
 		

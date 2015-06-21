@@ -1907,3 +1907,369 @@ Stack trace:
 [20-Jun-2015 14:28:34 Europe/Paris] PHP Stack trace:
 [20-Jun-2015 14:28:34 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:0
 [20-Jun-2015 14:28:34 Europe/Paris] PHP   2. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\add_announce.php:89
+[20-Jun-2015 14:44:49 Europe/Paris] PHP Warning:  include(../db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 8
+[20-Jun-2015 14:44:49 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Warning:  include(): Failed opening '../db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 8
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Warning:  include(valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 9
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Warning:  include(): Failed opening 'valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 9
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:9) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 12
+[20-Jun-2015 14:44:50 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:44:50 Europe/Paris] PHP   2. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:12
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Warning:  include(../db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 8
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:45:08 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Warning:  include(): Failed opening '../db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 8
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:45:08 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 12
+[20-Jun-2015 14:45:08 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:45:08 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:45:08 Europe/Paris] PHP   2. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:12
+[20-Jun-2015 14:45:22 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 12
+[20-Jun-2015 14:45:22 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 14:45:22 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[20-Jun-2015 14:45:22 Europe/Paris] PHP   2. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:12
+[20-Jun-2015 16:34:19 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 37
+[20-Jun-2015 16:34:19 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:34:19 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:34:19 Europe/Paris] PHP   2. mysqli_num_rows() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:37
+[20-Jun-2015 16:35:17 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 37
+[20-Jun-2015 16:35:17 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:35:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:35:17 Europe/Paris] PHP   2. mysqli_num_rows() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:37
+[20-Jun-2015 16:35:59 Europe/Paris] PHP Fatal error:  Call to undefined function sum() in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 57
+[20-Jun-2015 16:35:59 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:35:59 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 2 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 2 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 3 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 3 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 4 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 4 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 5 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 6 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 6 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 8 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 8 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 9 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 9 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 76
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 77
+[20-Jun-2015 16:44:38 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 16:44:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php:0
+[20-Jun-2015 16:47:30 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 86
+[20-Jun-2015 16:50:43 Europe/Paris] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\edit_polls.php on line 93
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  include(../db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 5
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  include(): Failed opening '../db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 5
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  include(valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  include(): Failed opening 'valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 15
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 15
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   2. mysqli_query() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:15
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 16
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 16
+[20-Jun-2015 17:05:21 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:21 Europe/Paris] PHP   2. mysqli_error() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:16
+[20-Jun-2015 17:05:58 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[20-Jun-2015 17:05:58 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[20-Jun-2015 17:05:58 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[20-Jun-2015 17:05:58 Europe/Paris] PHP Stack trace:
+[20-Jun-2015 17:05:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[21-Jun-2015 01:09:26 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 211
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  include(../db.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 91
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  include(): Failed opening '../db.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 91
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  include(valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 92
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  include(): Failed opening 'valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 92
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 101
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 101
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   2. mysqli_query() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:101
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Notice:  Undefined variable: db in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 102
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 102
+[21-Jun-2015 01:15:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:15:46 Europe/Paris] PHP   2. mysqli_error() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:102
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 92
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:16:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php on line 92
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:16:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:92) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\valid.php on line 3
+[21-Jun-2015 01:16:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:16:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:16:11 Europe/Paris] PHP   2. include() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:126
+[21-Jun-2015 01:16:11 Europe/Paris] PHP   3. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\valid.php:3
+[21-Jun-2015 01:16:38 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\valid.php on line 3
+[21-Jun-2015 01:16:38 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 01:16:38 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:0
+[21-Jun-2015 01:16:38 Europe/Paris] PHP   2. include() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\Edit_poll.php:126
+[21-Jun-2015 01:16:38 Europe/Paris] PHP   3. session_start() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\valid.php:3
+[21-Jun-2015 02:02:00 Europe/Paris] PHP Parse error:  syntax error, unexpected '[' in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Login.php on line 50
+[21-Jun-2015 02:42:13 Europe/Paris] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 9
+[21-Jun-2015 02:43:09 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:43:09 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:43:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:43:09 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:43:09 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:43:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:45:35 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:45:35 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:45:35 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:45:35 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:45:35 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:45:35 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:47:23 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:47:23 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:47:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:47:23 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:47:23 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:47:23 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:47:47 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:47:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:47:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:47:47 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:47:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:47:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:48:02 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:48:02 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:48:02 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:48:02 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:48:02 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:48:02 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:48:09 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:48:09 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:48:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:48:09 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:48:09 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:48:09 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Notice:  Undefined variable: user_id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 21
+[21-Jun-2015 02:52:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:33 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:33 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Notice:  Undefined variable: user_id in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 21
+[21-Jun-2015 02:52:33 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:52:33 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:06 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:06 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 12
+[21-Jun-2015 02:54:06 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:06 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:12 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:12 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 12
+[21-Jun-2015 02:54:12 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:54:12 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:57:51 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:57:51 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:57:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:57:51 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:57:51 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:57:51 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:57:58 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:57:58 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:57:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 02:57:58 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 02:57:58 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 02:57:58 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 04:47:46 Europe/Paris] PHP Notice:  Undefined variable: option1 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 35
+[21-Jun-2015 04:47:46 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 04:47:46 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[21-Jun-2015 05:04:43 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 50
+[21-Jun-2015 05:04:43 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:04:43 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[21-Jun-2015 05:04:43 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php on line 61
+[21-Jun-2015 05:04:43 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:04:43 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\new_poll.php:0
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:09:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:09:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:09:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:09:39 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:09:39 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:10:17 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:10:17 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:11:14 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:11:14 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:11:14 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:11:14 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:11:14 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Notice:  Undefined offset: 10 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 89
+[21-Jun-2015 05:12:47 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:12:47 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:19:04 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[21-Jun-2015 05:19:04 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:19:04 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[21-Jun-2015 05:19:04 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[21-Jun-2015 05:19:04 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:19:04 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[21-Jun-2015 05:21:01 Europe/Paris] PHP Notice:  Undefined offset: 7 in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php on line 95
+[21-Jun-2015 05:21:01 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:21:01 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\view_polls.php:0
+[21-Jun-2015 05:23:28 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[21-Jun-2015 05:23:28 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:23:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[21-Jun-2015 05:23:28 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php on line 6
+[21-Jun-2015 05:23:28 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:23:28 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_teachers\delete_poll.php:0
+[21-Jun-2015 05:27:06 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 05:27:06 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:27:06 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 05:27:06 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 05:27:06 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:27:06 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 05:27:11 Europe/Paris] PHP Warning:  include(../../valid.php): failed to open stream: No such file or directory in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 05:27:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:27:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
+[21-Jun-2015 05:27:11 Europe/Paris] PHP Warning:  include(): Failed opening '../../valid.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php on line 6
+[21-Jun-2015 05:27:11 Europe/Paris] PHP Stack trace:
+[21-Jun-2015 05:27:11 Europe/Paris] PHP   1. {main}() C:\Users\Osemudiamen\Documents\GitHub\www--Wamp-Server-For-School\wamp\www\Logged_in\polls_students\vote_poll.php:0
