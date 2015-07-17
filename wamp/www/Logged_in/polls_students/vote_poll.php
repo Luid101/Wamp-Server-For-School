@@ -1,5 +1,11 @@
 <html>
-	<header>
+	
+	
+	
+	
+	
+	
+	<body>
 		<?php
 		
 			include('../../db.php');//include our database login file
@@ -35,8 +41,5 @@
 			}
 			
 		?>
-	</header>
-	<body>
-		
 	</body>
 </html>

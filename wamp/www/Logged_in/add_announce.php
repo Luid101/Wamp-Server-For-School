@@ -1,4 +1,5 @@
 <html>
+<title>Add an Announcement</title>
 	<!doctype html>
 	<html lang="en">
 	<head>
@@ -62,6 +63,7 @@
         <li class="active"><a href="add_announce.php"><b> Add Announcements</b><span class="sr-only">(current)</span></a></li>
 		<li><a href="show_announce.php"><b> Show Announcements</b></a></li>
 		<li><a href="book_a_room.php"><b>Computer Lab Booking</b></a></li>
+		<li><a href="polls_teachers/new_poll.php"><b>Create New Polls</b></a></li>
 		
 		
           </ul>
@@ -84,9 +86,6 @@
 	<?php
 			include('../db.php');//include our database login file
 			include('valid.php');//include the validation script
-			
-			//start a session
-			session_start();
 			
 			//get the fullname
 			$fullname = $_SESSION['fullname'];

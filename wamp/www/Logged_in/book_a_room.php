@@ -63,6 +63,7 @@
         <li><a href="add_announce.php"><b> Add Announcements</b></a></li>
 		<li><a href="show_announce.php"><b> Show Announcements</b></a></li>
 		<li class="active"><a href="book_a_room.php"><b>Computer Lab Booking</b><span class="sr-only">(current)</span></a></li>
+		<li><a href="polls_teachers/new_poll.php"><b>Create New Polls</b></a></li>
 		
 		
           </ul>
@@ -84,9 +85,6 @@
 		
 			include('../db.php');//include our database login file
 			include('valid.php');//include the validation script
-			
-			//begin the session
-			session_start();
 			
 			
 			//store the users full name for later

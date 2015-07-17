@@ -19,9 +19,6 @@
 		
 		include('../db.php');//include our database login file
 		include('valid.php');//include the validation script
-			
-		//begin the session
-		session_start();
 		
 		//if a room has been booked
 		if($_SESSION['booking'] == false) 
@@ -61,7 +58,7 @@
 		$id = $_SESSION['id'];
 		
 		//make a query for all data for the periods
-		$sql = "SELECT * FROM `room_a` WHERE id = $id";
+		$sql = "SELECT * FROM $room WHERE id = $id";
 		$result = mysqli_query($db, $sql);
 		
 		//collect the results from our row

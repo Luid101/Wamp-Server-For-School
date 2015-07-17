@@ -46,8 +46,7 @@
 					{
 						//echo  " UName: " . $row['username']." Pword: " . $row['Password']."<br>";
 						
-						//get the users id
-						$_SESSION['user_id'] = $row['id'];
+						
 						
 						//check username and password
 						if($username == $row['username'] && $encpassword == $row['Password']) 
@@ -57,6 +56,12 @@
 							
 							//set a value for if or not we are logged in
 							$_SESSION['logged_in'] = true;
+							
+							//get the users password
+							$_SESSION['password'] = $row['Password'];
+							
+							//get the users id
+							$_SESSION['user_id'] = $row['id'];
 							
 							//need to send info about what type of users they are
 							//if it is a teacher

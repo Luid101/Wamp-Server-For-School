@@ -1,4 +1,5 @@
 <html>
+<title>Today's Announcements</title>
 
 <head>
 

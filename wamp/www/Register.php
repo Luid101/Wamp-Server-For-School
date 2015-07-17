@@ -15,84 +15,109 @@
 			include('db.php');//include our database login file
 			
 			$fullname = @$_POST['fullname'];//find the "post" of fullname from the form below
+			$lastname = @$_POST['lastname'];
 			$username = @$_POST['username'];
-			$password = @$_POST['password'];
-			$repeatpassword = @$_POST['repeatpassword'];
 			$submit = @$_POST['submit'];
 			$user_type = @$_POST['user_type'];
 			
-			//password encryption
-			$encpassword = md5($password);//this encryption method is not recommended now
-			
-			//if statements to register
-			if ($submit)
+		//if statements to register
+		if ($submit)
+		{
+			if($lastname==true)//if there is a fullname
 			{
+			
 				if($fullname==true)//if there is a fullname
 				{
-				
-					if($username==true)//if there is a username
-					{
-						
-						if($password==true)//if there is a password
+					
+						if($username==true)//if there is a username
 						{
-						
-							
-							if($password == $repeatpassword)//if both passwords are the same
-							{
-								//string length checks
-								if(strlen($username)< 50 && strlen($fullname) < 50)
-								{
-									//password must be in between 5 and 50
-									if(strlen($password) < 50 && strlen($password) > 5) 
+									//string length checks
+									if(strlen($username)< 50 && strlen($fullname) < 50)
 									{
-										
-										$insert = mysqli_query($db,"INSERT INTO users (fullname, username, password, user_type) VALUES('$fullname','$username','$encpassword', '$user_type')")
-										or die("it didn't work");
-										 
-										//echo "Thank You! your information has been added to our database.<br>";
-										//echo "Please click one the links below to continue.<br>";
-										
-										//go to the registered location
-										header("Location: $url");
-										
-										
+											
+											//check if the last name and first name combo are in the database
+											//get a result of all the names in the database
+											$sql2 = "SELECT id, lastname, username, password, user_type, fullname FROM users";
+											$result2 = mysqli_query($db, $sql2);
+											
+											//variable to see if the user is inside
+											$inside = false;
+											
+											// get the data of username and lastname for each row
+											while($row = mysqli_fetch_assoc($result2)) 
+											{
+												//get the id
+												$id = $row['id'];
+												//get the user type
+												$type = $row['user_type'];
+												
+												
+												//if the teachers usertype, lastname and firstname is there
+												if( strtolower($user_type) == $type)
+												{
+													if($lastname == $row['lastname'])
+													{
+														if($fullname == $row['fullname'])
+														{
+															//say that it is inside
+															$inside = true; 
+															
+															if($row['password'] == '')
+															{
+																//get create a new password with the lastname+first initial
+																$password = $lastname.substr($fullname,0,1);
+																
+																//encrypt it!
+																$encpassword = md5($password);
+																
+																$insert = mysqli_query($db,"UPDATE `users` SET username='$username', password='$encpassword' WHERE id = $id")
+																or die("it didn't work");
+																
+																echo "Done";
+																//echo "Thank You! your information has been added to our database.<br>";
+																//echo "Please click on the links below to continue.<br>";
+																
+																//go to the registered location
+																header("Location: $url");
+															}
+															else
+															echo "you have already registered";
+															
+														}
+														//else
+														//echo"firstname not there";
+														
+													}
+													//else
+													//echo "lastname not there";
+												}
+												//else
+												//echo "user type not there";
+											}
+											if($inside == false)
+											{
+												echo "<font color = 'red'><B>You are not in the database!</b></font>";
+											}
 									}
 									else
 									{
-										echo"password must be in between 5 and 50 characters";
+										echo"The Maximum length for User name and full name is 50 characters";
 									}
-								}
-								else
-								{
-									echo"The Maximum length for User name and full name is 50 characters";
-								}
-							}
-							else
-							{
-								echo "Passwords don't match<br>";
-								echo"<br>";//new line
-							}
-						
 						}
-						
 					else
 					{
-						echo "Please input a Password<br>";
+						echo "Please input a Username<br>";
 						echo"<br>";//new line
 					}
-				
 				}
 				else
 				{
-					echo "Please input a Username<br>";
+					echo "Please input a First Name<br>";
 					echo"<br>";//new line
 				}
 			}
 			else
-			{
-				echo "Please input a Fullname<br>";
-				echo"<br>";//new line
-			}
+			echo "Please input a Last Name<br>";
 		}
 			
  		?>
@@ -109,17 +134,14 @@
 	
 		<!--form goes here-->
 		<form method="post">
+			<!--make a text box for last name-->
+			<p><b>Last Name:</b><br> <input name = "lastname" type="text" class="form-control"><br></p><!-- '<br>' are break tags-->
+			
 			<!--make a text box for full name-->
-			<p><b>Fullname:</b><br> <input name = "fullname" type="text" class="form-control"><br></p><!-- '<br>' are break tags-->
+			<p><b>First Name:</b><br> <input name = "fullname" type="text" class="form-control"><br></p><!-- '<br>' are break tags-->
 			
 			<!--make a text box for user name-->
 			<p><b>Username:</b><br> <input name = "username" type="text" class="form-control"><br></p>
-			
-			<!--make a text box for users password-->
-			<p><b>Password:</b><br> <input name = "password" type="password" class="form-control"><br></p>
-			
-			<!--make a text box for the user to repeat his or her password-->
-			<p><b>Repeat Password:</b><br> <input name = "repeatpassword" type="password" class="form-control"><br></p>
 			
 			<!--make a submit button-->
 			<p><input name = "submit" class="btn btn-primary"type="submit" value="Submit"></p>

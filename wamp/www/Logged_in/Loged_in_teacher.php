@@ -1,5 +1,5 @@
 <html>
-
+<title>Teacher Homepage</title>
 <head>
 
 <meta charset="utf-8">
@@ -46,6 +46,7 @@
         <li><a href="add_announce.php"><b>Add Announcements</b></a></li>
 		<li ><a href="show_announce.php"><b> Show Announcements</b></a></li>
 		<li><a href="book_a_room.php"><b>Computer Lab Booking</b></a></li>
+		<li><a href="polls_teachers/new_poll.php"><b>Create New Polls</b></a></li>
 		
 		
           </ul>
@@ -61,9 +62,8 @@
 	
 	
 	<?php
+			include('valid.php');//include the validation script
 			
-			//start a session
-			session_start();
 			//no validation code needed here
 			
 			//if you are logged in
@@ -104,6 +104,12 @@
 		<ul>
 			<li><a href="polls_teachers/new_poll.php">Create a poll</a></li>
 			<li><a href="polls_teachers/view_polls.php">View all my polls</a></li>
+			
+		</ul>
+		<b><p>Account settings</p></b>
+		<ul>
+			<li><a href="change_password.php">Change Password</a></li>
+			
 		</ul>
 		<br />
 		

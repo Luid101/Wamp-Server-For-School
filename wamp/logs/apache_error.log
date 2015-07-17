@@ -137,3 +137,33 @@
 [Sat Jun 20 20:45:35.463176 2015] [:error] [pid 10268:tid 956] [client ::1:63461] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Logged_in/polls_students/edit_polls.php' not found or unable to stat, referer: http://localhost/Logged_in/polls_students/view_polls.php
 [Sat Jun 20 20:47:23.795654 2015] [:error] [pid 10268:tid 956] [client ::1:63658] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Logged_in/polls_students/edit_polls.php' not found or unable to stat, referer: http://localhost/Logged_in/polls_students/view_polls.php
 [Sat Jun 20 23:19:04.623338 2015] [:error] [pid 10268:tid 968] [client ::1:54433] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Logged_in/polls_teachers/edit_polls.php' not found or unable to stat, referer: http://localhost/Logged_in/polls_teachers/view_polls.php
+[Mon Jun 22 20:40:23.731903 2015] [mpm_winnt:notice] [pid 6604:tid 548] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 22 20:40:25.770502 2015] [mpm_winnt:notice] [pid 10268:tid 524] AH00364: Child: All worker threads have exited.
+[Mon Jun 22 20:40:33.850053 2015] [mpm_winnt:notice] [pid 6604:tid 548] AH00430: Parent: Child process 10268 exited successfully.
+[Tue Jun 23 10:42:36.875936 2015] [mpm_winnt:notice] [pid 7640:tid 540] AH00455: Apache/2.4.9 (Win32) PHP/5.5.12 configured -- resuming normal operations
+[Tue Jun 23 10:42:36.875936 2015] [mpm_winnt:notice] [pid 7640:tid 540] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:13:13
+[Tue Jun 23 10:42:36.875936 2015] [core:notice] [pid 7640:tid 540] AH00094: Command line: 'C:\\Users\\Osemudiamen\\Documents\\GitHub\\www--Wamp-Server-For-School\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/apache/apache2.4.9'
+[Tue Jun 23 10:42:36.877938 2015] [mpm_winnt:notice] [pid 7640:tid 540] AH00418: Parent: Created child process 2808
+[Tue Jun 23 10:42:37.483344 2015] [mpm_winnt:notice] [pid 2808:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 23 12:53:44.793688 2015] [:error] [pid 2808:tid 936] [client ::1:51511] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Logged_in/change_password.php' not found or unable to stat, referer: http://localhost/Logged_in/Loged_in_teacher.php
+[Tue Jun 23 13:03:07.975799 2015] [:error] [pid 2808:tid 972] [client ::1:51662] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Loged_in.php' not found or unable to stat, referer: http://localhost/Logged_in/change_password.php
+[Tue Jun 23 13:04:23.692878 2015] [:error] [pid 2808:tid 972] [client ::1:51683] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Loged_in.php' not found or unable to stat, referer: http://localhost/Logged_in/change_password.php
+[Tue Jun 23 13:04:59.721524 2015] [:error] [pid 2808:tid 972] [client ::1:51692] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Loged_in.php' not found or unable to stat, referer: http://localhost/Logged_in/change_password.php
+[Tue Jun 23 13:05:58.276757 2015] [:error] [pid 2808:tid 972] [client ::1:51705] script 'C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/www/Loged_in.php' not found or unable to stat
+[Fri Jul 03 06:21:25.364378 2015] [core:warn] [pid 10928:tid 456] AH00098: pid file C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 03 06:21:26.023816 2015] [mpm_winnt:notice] [pid 10928:tid 456] AH00455: Apache/2.4.9 (Win32) PHP/5.5.12 configured -- resuming normal operations
+[Fri Jul 03 06:21:26.023816 2015] [mpm_winnt:notice] [pid 10928:tid 456] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:13:13
+[Fri Jul 03 06:21:26.023816 2015] [core:notice] [pid 10928:tid 456] AH00094: Command line: 'C:\\Users\\Osemudiamen\\Documents\\GitHub\\www--Wamp-Server-For-School\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/apache/apache2.4.9'
+[Fri Jul 03 06:21:26.025818 2015] [mpm_winnt:notice] [pid 10928:tid 456] AH00418: Parent: Created child process 11328
+[Fri Jul 03 06:21:26.535156 2015] [mpm_winnt:notice] [pid 11328:tid 460] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 03 06:23:00.335813 2015] [authz_core:error] [pid 11328:tid 980] [client ::1:57659] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/Manshi_mail/
+[Fri Jul 03 06:23:00.337815 2015] [authz_core:error] [pid 11328:tid 980] [client ::1:57659] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/Manshi_mail/
+[Fri Jul 03 06:23:00.337815 2015] [authz_core:error] [pid 11328:tid 972] [client ::1:57660] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/Manshi_mail/
+[Fri Jul 03 06:23:00.339816 2015] [authz_core:error] [pid 11328:tid 960] [client ::1:57661] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/Manshi_mail/
+[Sun Jul 05 09:45:50.921011 2015] [mpm_winnt:notice] [pid 10928:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 05 09:45:58.836119 2015] [mpm_winnt:notice] [pid 11328:tid 460] AH00364: Child: All worker threads have exited.
+[Sun Jul 05 10:30:27.755234 2015] [core:warn] [pid 7308:tid 468] AH00098: pid file C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 05 10:30:28.102464 2015] [mpm_winnt:notice] [pid 7308:tid 468] AH00455: Apache/2.4.9 (Win32) PHP/5.5.12 configured -- resuming normal operations
+[Sun Jul 05 10:30:28.102464 2015] [mpm_winnt:notice] [pid 7308:tid 468] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:13:13
+[Sun Jul 05 10:30:28.102464 2015] [core:notice] [pid 7308:tid 468] AH00094: Command line: 'C:\\Users\\Osemudiamen\\Documents\\GitHub\\www--Wamp-Server-For-School\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/Users/Osemudiamen/Documents/GitHub/www--Wamp-Server-For-School/wamp/bin/apache/apache2.4.9'
+[Sun Jul 05 10:30:28.103467 2015] [mpm_winnt:notice] [pid 7308:tid 468] AH00418: Parent: Created child process 4664

@@ -1,5 +1,5 @@
 <html>
-
+<title>Edit Today's Announcements</title>
 
 <head>
 
@@ -54,6 +54,7 @@
         <li><a href="add_announce.php"><b>Add Announcements</b></a></li>
 		<li class="active"><a href="show_announce.php"><b> Show Announcements</b><span class="sr-only">(current)</span></a></li>
 		<li><a href="book_a_room.php"><b>Computer Lab Booking</b></a></li>
+		<li><a href="polls_teachers/new_poll.php"><b>Create New Polls</b></a></li>
 		
 		
           </ul>
@@ -85,8 +86,6 @@
 			//include the date and announcement functions that I will use here 
 			include('date_functions.php');
 			include('add_all_announce.php');
-			
-			session_start();
 			
 			//get the teachers name
 			$fullname = $_SESSION['fullname'];

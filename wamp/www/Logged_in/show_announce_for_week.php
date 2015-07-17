@@ -1,5 +1,5 @@
 <html>
-
+<title>Weekly Announcements</title>
 
 <head>
 
