@@ -1,0 +1,15 @@
+Extract the contents of the "www" folder into your localhost folder on your server. 
+Then go to the folder "db_file" and extract the database "login_register" into your server's built sql database. 
+If you did all that well then you should be golden. 
+
+However if your not Golden then you might need to change the username and password in the PHP code that the program uses to access the database.
+To do that go to the folder that contains the files you copied from the "www" folder. 
+Open up the file called "db.php".
+On line 6 you can change "$mysql_username = "root";" to what ever your database username is.
+On line 7 you can change "$mysql_password = "";" to what ever your database password is.
+And then you should be GOLDEN!
+
+The database should be pretty easy to use once you have everything setup. However I might be posting a tutorial on it later on.
+
+**Disclaimer**
+I am NOT liable for any damages the miss use of this program may cause to any device you use it on.    

@@ -1,2 +1,0 @@
-This PHP version is used by WampServer 2.0 in CLI mode. 
-If you delete it, WampServer 2.0 won't work anymore.
